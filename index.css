@@ -1,0 +1,212 @@
+body {
+    margin: 0;
+    font-family: "Smythe", system-ui;
+    background-color: #FFFFFF;
+    width: 600px;
+}
+
+header{
+    background-image: url(./images/Header.png);
+    background-size: cover;
+    color: #FFFFFF;
+    width: 600px;
+    height: 170px;
+    padding-left: 45px;
+}
+
+h1{
+    margin: 0;
+    line-height: 24px;
+    padding-top: 45px;
+    font-size: 40px;
+    font-weight: normal;
+    
+}
+
+h2{
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+main{
+    padding-top: 40px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+img{
+    border-radius: 10px;
+}
+
+.ordering{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #D2D2D2;
+}
+
+.item-pic{
+
+    height: 90px;
+    width: 70px;
+}
+
+.item{
+    margin-right: auto;
+    margin-left: 30px;
+}
+
+.item-title{
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0;
+    padding-top: 15px;
+}
+
+.item-description{
+    color: #8B8B8B;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.item-price{
+    font-size: 20px;
+}
+
+.fa-circle-plus{
+    color: #3C3c3c;
+}
+
+.fa-circle-plus:hover, .fa-circle-plus:focus{
+    opacity: 40%;
+    cursor: pointer;
+}
+
+#checkout{
+    display: none;
+    padding-top: 30px;
+    text-align: center;
+}
+
+#checkout-title{
+    text-align: center;
+}
+
+.your-order{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #000;
+}
+
+.remove-item-btn{
+    margin-right: auto;
+    margin-left: 10px;
+    border: none;
+    background-color: #FFFFFF;
+    color: #bbbbbb;
+    font-size: 12px;
+}
+
+.remove-item-btn:hover, .remove-item-btn:focus{
+    cursor: pointer;
+    color: #000;
+}
+
+#total{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*#total-price-text{
+    
+}
+
+#total-price{
+    
+}*/
+
+#purchase-btn{
+    border: none;
+    background-color: #16DB99;
+    color: #FFFFFF;
+    height: 60px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+#purchase-btn:hover, #purchase-btn:focus{
+    cursor: pointer;
+    opacity: 40%;
+}
+
+#payment-modal{
+    display: none;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border: solid 1px #000;
+    background-color: #FFFFFF;
+    width: 525px;
+    height: 540px;
+}
+
+#payment-modal h2{
+    font-weight: bold;
+}
+
+label{
+    display: block;
+    text-align: left;
+    padding-left: 25px;
+}
+
+input{
+    display: block;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top:    10px ;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 475px;
+    border-radius: 5px;
+    border-color: #757575;
+}
+
+#pay-btn{
+    border: none;
+    background-color: #16DB99;
+    color: #FFFFFF;
+    height: 60px;
+    width: 475px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+#pay-btn:hover, #pay-btn:focus{
+    cursor: pointer;
+    opacity: 40%;
+    
+}
+
+#complete{
+    display: none;
+    margin-top: 30px;
+    height: 120px;
+    width: 500px;
+    background-color: #ECFDF5;
+    color:#065f46;
+    text-align: center;
+}
+
+#complete-text{
+    padding: 50px;
+    font-size: 22px;
+}

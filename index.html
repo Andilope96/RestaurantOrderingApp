@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+
+    <head>
+        <title>Restaurant Ordering App</title>
+        <link rel="stylesheet" href="index.css">
+        <!--FONTAWESOME-->
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" 
+        />
+        <!--Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <header>
+            <h1>Jimmy's Dinner</h1>
+            <h2>The best burgers and pizzas</h2>
+        </header>
+
+        <main>
+
+            <section class="ordering"> <!--Eigentlich Div-->
+                
+                <img class="item-pic" src="images/pizza.jpg" alt="item-pic">
+                <div class="item">
+                    <h3 class="item-title">Pizza</h3>
+                    <p class="item-description">FoodDetail</p>
+                    <p class="item-price"><span>10€</span></p>
+                </div>
+
+                <i  class="fa-solid fa-circle-plus"></i>
+
+                
+            </section> <!--Eigentlich Div-->
+
+            <section class="ordering"> <!--Eigentlich Div-->
+                
+                <img class="item-pic" src="images/burger.jpg" alt="item-pic">
+                <div class="item">
+                    <h3 class="item-title">Burger</h3>
+                    <p class="item-description">FoodDetail</p>
+                    <p class="item-price"><span>10€</span></p>
+                </div>
+
+                <i  class="fa-solid fa-circle-plus"></i>
+
+                
+            </section> <!--Eigentlich Div-->
+
+            <section class="ordering"> <!--Eigentlich Div-->
+                
+                <img class="item-pic" src="images/beer.jpg" alt="item-pic">
+                <div class="item">
+                    <h3 class="item-title">Beer</h3>
+                    <p class="item-description">FoodDetail</p>
+                    <p class="item-price"><span>10€</span></p>
+                </div>
+
+                <i  class="fa-solid fa-circle-plus"></i>
+
+                
+            </section> <!--Eigentlich Div-->
+
+            <section id="checkout">
+                <h2 id="checkout-title">Your Order</h2>
+
+                <div class="your-order">
+                    <p class="item-title">Pizza</p>
+                    <button class="remove-item-btn">remove</button>
+                    <p class="item-price"><span>10€</span></p>
+                </div>
+
+                <div id="total">
+                    <p id="total-price-text">Total price:</p>
+                    <p id="total-price"><span>20€</span></p>
+                </div>
+
+                <button id="purchase-btn">Complete order</button>
+            </section>
+
+            <section id="payment-modal">
+                <h2>Enter card details</h2>
+                
+                <form id="pay-form">
+                    <label for="user-name">Name</label>
+                    <input 
+                    type="text" 
+                    placeholder="Max Mustermann" 
+                    id="user-name"
+                    required>
+                    <label for="card-number">Card Number</label>
+                    <input
+                    type="text"
+                    placeholder="123 456 789"
+                    id="card-number"
+                    required>
+                    <label for="cvv">CVV</label>
+                    <input
+                    type="text"
+                    placeholder="123"
+                    id="cvv"
+                    required>
+                    <button id="pay-btn" type="submit">Pay</button>
+                </form>
+
+            </section>
+
+            <section id="complete" class="">
+                <p id="complete-text">Thanks, user! Your order is on its way!</p>
+            </section>
+
+        </main>
+        <footer>
+
+        </footer>
+        <script src="index.js" type="module"></script>
+    </body>
+</html>
