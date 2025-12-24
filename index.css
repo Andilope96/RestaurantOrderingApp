@@ -76,6 +76,7 @@ img{
 
 .fa-circle-plus{
     color: #3C3c3c;
+    font-size: 22px;
 }
 
 .fa-circle-plus:hover, .fa-circle-plus:focus{
@@ -145,6 +146,7 @@ img{
 
 #payment-modal{
     display: none;
+    box-shadow: 0 0 50px #000;
     text-align: center;
     position: fixed;
     top: 0;
@@ -152,7 +154,7 @@ img{
     right: 0;
     bottom: 0;
     margin: auto;
-    border: solid 1px #000;
+    border-radius: 10px;
     background-color: #FFFFFF;
     width: 525px;
     height: 540px;
@@ -188,6 +190,7 @@ input{
     width: 475px;
     border-radius: 10px;
     margin-top: 30px;
+    font-size: 20px;
 }
 
 #pay-btn:hover, #pay-btn:focus{
